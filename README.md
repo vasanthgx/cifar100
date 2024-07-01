@@ -102,10 +102,11 @@ Learning rate scheduling was used to adjust the learning rates dynamically durin
 
 
 
-## References
+## Acknowledgements
 
-1.	David E Rumelhart, Geoffrey E Hinton, Ronald J Williams, et al. Learning representations by back-propagating errors. [Nature.](https://www.nature.com/articles/323533a0)
-
+- The CIFAR-100 dataset is provided by the [Canadian Institute For Advanced Research.](https://www.cs.toronto.edu/~kriz/cifar.html)
+- [For image classification use cases, see this page for detailed examples](https://keras.io/api/applications/#usage-examples-for-image-classification-models)
+- [A guide for Transfer learning and finetuning](https://keras.io/guides/transfer_learning/)
 
 
 
