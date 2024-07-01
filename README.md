@@ -87,7 +87,7 @@ Appropriate activation functions, such as ReLU (Rectified Linear Unit), were use
 
 Different batch sizes were experimented with to find the optimal size for training. Batch size impacts the stability and speed of training; smaller batches provide more updates but can be noisier, while larger batches are more stable but slower.
 
-**Data Augmentation
+**Data Augmentation:**
 
 Data augmentation techniques were applied to improve model generalization. These techniques, such as random cropping, flipping, and rotation, artificially increase the diversity of the training dataset, helping the model become more robust to variations in input data.
 
