@@ -96,6 +96,30 @@ Learning rate scheduling was used to adjust the learning rates dynamically durin
 
 ## Results
 
+![alt text](https://github.com/vasanthgx/cifar100/blob/main/images/table)
+
+## Result Analysis
+
+
+
+The results indicate varying levels of performance across different methods for classifying images from the CIFAR-100 dataset. Building a CNN from scratch achieved the highest accuracy at 36%, showcasing the potential of custom architectures tailored to specific tasks. Using a pre-existing network with pretrained weights followed closely with 32%, demonstrating the efficiency of leveraging learned features. However, transfer learning combined with fine-tuning showed slightly lower accuracy at 30%, suggesting the challenge of adapting generic features to a more specific dataset context.
+
+**Improving Results**
+
+To enhance accuracy:
+
+1. Architecture Tuning: Experiment with deeper or wider architectures to capture more intricate features.
+2. Hyperparameter Optimization: Fine-tune learning rates, batch sizes, and regularization parameters for better model convergence.
+3. Data Augmentation: Increase dataset diversity with techniques like rotation, flipping, and cropping to improve generalization.
+4. Ensemble Methods: Combine predictions from multiple models for improved robustness and accuracy.
+5. Transfer Learning Variants: Try different pretrained models or adjust the depth of fine-tuning layers for optimal feature adaptation.
+
+By iteratively refining these aspects, it's possible to achieve higher accuracy and robustness in image classification tasks on complex datasets like CIFAR-100.
+
+
+
+
+
 
 
 
