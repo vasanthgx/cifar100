@@ -6,7 +6,7 @@
 # Project Title
 
 
-**implementation of three different methods to classify images from the CIFAR-100 dataset using CNN**
+**Implementation of three different methods to classify images from the CIFAR-100 dataset using CNN**
  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/b3fef2db-e671-4610-bb84-1d65533dc5fb" width="300" align='right'>
 
 <br><br>
