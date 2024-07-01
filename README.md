@@ -94,6 +94,11 @@ Data augmentation techniques were applied to improve model generalization. These
 
 Learning rate scheduling was used to adjust the learning rates dynamically during training. By reducing the learning rate at predefined intervals or based on performance, the model can converge more effectively, balancing between rapid learning and fine-tuning.
 
+**TensorBoard Visualization**
+TensorBoard is a visualization toolkit for monitoring and debugging deep learning models. It provides real-time insights into metrics like loss, accuracy, and training progress. Users can track changes, compare experiments, and understand model performance, helping to optimize and improve training processes effectively.
+
+![alt text](https://github.com/vasanthgx/cifar100/blob/main/images/tb1.png)
+
 ## Results
 
 ![alt text](https://github.com/vasanthgx/cifar100/blob/main/images/table.png)
@@ -102,7 +107,7 @@ Learning rate scheduling was used to adjust the learning rates dynamically durin
 
 
 
-The results indicate varying levels of performance across different methods for classifying images from the CIFAR-100 dataset. Building a CNN from scratch achieved the highest accuracy at 36%, showcasing the potential of custom architectures tailored to specific tasks. Using a pre-existing network with pretrained weights followed closely with 32%, demonstrating the efficiency of leveraging learned features. However, transfer learning combined with fine-tuning showed slightly lower accuracy at 30%, suggesting the challenge of adapting generic features to a more specific dataset context.
+The results indicate varying levels of performance across different methods for classifying images from the CIFAR-100 dataset. Using a pre-existing network with pretrained weights achieved the highest accuracy at 46%, demonstrating the efficiency of leveraging learned features. Building a CNN from scratch followed with an accuracy of 36%, showcasing the potential of custom architectures tailored to specific tasks. Transfer learning combined with fine-tuning showed slightly lower accuracy at 31%, suggesting the challenge of adapting generic features to a more specific dataset context.
 
 **Improving Results**
 
