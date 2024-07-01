@@ -87,14 +87,16 @@ Appropriate activation functions, such as ReLU (Rectified Linear Unit), were use
 
 Different batch sizes were experimented with to find the optimal size for training. Batch size impacts the stability and speed of training; smaller batches provide more updates but can be noisier, while larger batches are more stable but slower.
 
-**Data Augmentation:**
+**Data Augmentation
+
 Data augmentation techniques were applied to improve model generalization. These techniques, such as random cropping, flipping, and rotation, artificially increase the diversity of the training dataset, helping the model become more robust to variations in input data.
 
 **Learning Rate Scheduling:**
 
 Learning rate scheduling was used to adjust the learning rates dynamically during training. By reducing the learning rate at predefined intervals or based on performance, the model can converge more effectively, balancing between rapid learning and fine-tuning.
 
-**TensorBoard Visualization**
+**TensorBoard Visualization:**
+
 TensorBoard is a visualization toolkit for monitoring and debugging deep learning models. It provides real-time insights into metrics like loss, accuracy, and training progress. Users can track changes, compare experiments, and understand model performance, helping to optimize and improve training processes effectively.
 
 ![alt text](https://github.com/vasanthgx/cifar100/blob/main/images/tb1.png)
